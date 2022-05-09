@@ -28,8 +28,8 @@ const Home: NextPage = () => {
   }
 
   return (
-    <Layout>
-      <h1 className='text-2xl sm:text-4xl font-bold text-gray-800 text-center tracking-wide'> Welcome to emoji App 💡👾</h1>
+    <Layout >
+      <h1 className='text-2xl sm:text-4xl font-bold dark:text-gray-200 text-gray-900 text-center tracking-wide'> Welcome to emoji App 💡👾</h1>
 
       <div className='flex justify-center'>
         <input className='w-full max-w-xl border border-gray-300 p-2 rounded-md my-8 bg-white shadow-md focus:outline-none focus:border-cyan-500 ' type="text" id='name'
